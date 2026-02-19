@@ -1,66 +1,65 @@
 # Java Employee System
 
-## 📌 Descrição
+## 📌 Description
 
-Projeto simples em **Java (console)** desenvolvido com o objetivo de praticar **Programação Orientada a Objetos**, **listas**, **Streams**, **organização em camadas** e **boas práticas básicas de código**.
+Simple **Java (console)** project developed with the goal of practicing **Object-Oriented Programming**, **lists**, **Streams**, **layered architecture**, and **basic coding best practices**.
 
-O sistema permite o **cadastro e gerenciamento de funcionários**, simulando um pequeno sistema administrativo executado via terminal.
+The system allows **registering and managing employees**, simulating a small administrative system run via the terminal.
 
-
-
----
-
-## ⚙️ Funcionalidades
-
-* Cadastrar funcionário
-* Listar funcionários cadastrados
-* Aumentar salário de um funcionário pelo ID
-* Validações básicas (ID inexistente, dados inválidos)
-* Menu interativo no console
 
 ---
 
-## 🧱 Estrutura do Projeto
+## ⚙️ Features
+
+* Register an employee
+* List registered employees
+* Increase an employee's salary by ID
+* Basic validations (nonexistent ID, invalid data)
+* Interactive console menu
+
+---
+
+## 🧱 Project Structure
 
 ```text
 src/
  ├── application/
- │    └── Program.java        # Classe principal (menu e entrada de dados)
+ │    └── Program.java        # Main class (menu and data input)
  ├── entities/
- │    └── Employee.java       # Entidade funcionário
+ │    └── Employee.java       # Employee entity
  └── services/
-      └── EmployeeService.java # Regras de negócio
+      └── EmployeeService.java # Business logic
 ```
 
 ### 📂 application
 
-Responsável por:
+Responsible for:
 
-* Exibir o menu
-* Ler dados do usuário (`Scanner`)
-* Chamar os métodos do service
+* Displaying the menu
+* Reading user input (Scanner)
+* Calling service methods
 
 ### 📂 entities
 
-Contém a entidade **Employee**, responsável apenas por:
+Contains the **Employee** entity, responsible only for:
 
-* Atributos
-* Construtor
+* Attributes
+* Constructor
 * Getters / Setters
 * `toString()`
 
 ### 📂 services
 
-Responsável pelas **regras de negócio**, como:
+Responsible for **business logic**, such as:
 
-* Armazenar a lista de funcionários
-* Buscar funcionário por ID
-* Aplicar aumento de salário
-* Realizar validações
+* Storing the list of employees
+* Searching employees by ID
+* Applying salary increases
+* Performing validations
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 * Java
 * Programação Orientada a Objetos (POO)
@@ -70,36 +69,37 @@ Responsável pelas **regras de negócio**, como:
 
 ---
 
-## ▶️ Como Executar
+## ▶️ How to Run
 
-1. Clone o repositório
-2. Abra o projeto em uma IDE Java (IntelliJ, Eclipse, VS Code)
-3. Execute a classe `Program.java`
-4. Interaja com o menu pelo terminal
-
----
-
-## 🎯 Objetivo do Projeto
-
-* Consolidar conceitos de Java básico e intermediário
-* Praticar organização de código em camadas
-* Simular um sistema real de forma simples
+1. Clone the repository
+2. Open the project in a Java IDE (IntelliJ, Eclipse, VS Code)
+3. Run the `Program.java` class 
+4. Interact with the menu via the terminal
 
 ---
 
-## 📚 Aprendizados
+## 🎯 Project Goal
 
-Com este projeto foi possível praticar:
-
-* Separação de responsabilidades
-* Uso de Streams para busca em listas
-* Organização de código além do método `main`
-* Estruturação de um projeto Java do zero
+* Consolidate basic and intermediate Java concepts
+* Practice layered code organization
+* Simulate a simple real-world system
 
 ---
 
-## 👨‍💻 Autor
+## 📚 Learnings
+
+Through this project, it was possible to practice:
+
+* Separation of concerns
+* Using Streams to search in lists
+* Organizing code beyond the `main` method
+* Structuring a Java project from scratch
+
+---
+
+## 👨‍💻 Author
 
 Henrique Ribeiro
 
 ---
+
